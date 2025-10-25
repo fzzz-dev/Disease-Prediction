@@ -6,7 +6,7 @@ import os
 import traceback
 
 app = Flask(__name__)
-CORS(app, origins=["https://diseaseprediction-wine.vercel.app/"])
+CORS(app)
 
 # Load the trained model safely using absolute path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
