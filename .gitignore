@@ -1,6 +1,6 @@
-.env
+frontend/.env
 node_modules/
 package-lock.json
 
-datasets/
+backend/datasets/
 myvenv/
